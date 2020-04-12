@@ -5,11 +5,11 @@ from telebot import types
 import urllib.request
 import json
 from datetime import datetime
-import locale
+# import locale
 
 bot = telebot.TeleBot(config.TOKEN)
 
-locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
+# locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
 
 
 @bot.message_handler(commands=['start'])
